@@ -8,17 +8,7 @@ class EventTeamItem extends Component {
       <div className="item">
         <div className="e_team_img">
           <img src={require("../../img/home-event/" + image)} alt="" />
-          <ul className="list-unstyled">
-            {FooterData.socialIcon.map((item) => {
-              return (
-                <li key={item.id}>
-                  <a href={item.url}>
-                    <i className={`${item.icon}`}></i>
-                  </a>
-                </li>
-              );
-            })}
-          </ul>
+          <ul className="list-unstyled"></ul>
         </div>
         <a href="/#">
           <h4>{name}</h4>

@@ -18,14 +18,23 @@ class FooterErp extends Component {
                       className="f_widget dark_widget company_widget"
                       data-wow-delay="0.2s"
                     >
-                      <a href="index.html" className="f-logo">
-                        <img src={require("../../img/logo2.png")} alt="" />
+                      <a href="/Ebis" className="f-logo">
+                        <img
+                          style={{ width: "80%", height: "80%" }}
+                          src={require("../../img/ebislogotrnsprnt.png")}
+                          alt=""
+                        />
                       </a>
-                      <p>© 2016 Faro GroupAll rights reserved.</p>
+                      <p>
+                        © 2022 Orkhon Toyama LLC <br /> all rights reserved.
+                      </p>
                       <div className="f_social_icon">
                         {FooterData.socialIcon.map((item) => {
                           return (
-                            <a href="/" key={item.id}>
+                            <a
+                              href="https://www.facebook.com/%D0%AD%D0%91%D0%98%D0%A1-%D0%A1%D1%8D%D1%80%D0%B3%D1%8D%D1%8D%D0%BD-%D0%B7%D0%B0%D1%81%D0%B0%D1%85-%D0%BA%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA-%D0%AF%D0%BF%D0%BE%D0%BD-%D0%B1%D0%B0%D1%80%D0%B8%D0%B0-%D0%B7%D0%B0%D1%81%D0%B0%D0%BB-%D0%A3%D1%82%D0%B0%D1%81-9450-0054-8006-1415-104619461022471"
+                              key={item.id}
+                            >
                               <i className={item.icon}></i>
                             </a>
                           );

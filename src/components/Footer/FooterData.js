@@ -138,11 +138,6 @@ const FooterData = {
       url: "https://www.facebook.com/faroedu",
       icon: "ti-facebook",
     },
-    {
-      id: 2,
-      url: "https://www.instagram.com/faro_edu/",
-      icon: "ti-instagram",
-    },
   ],
   copywrite: "© Faro Group. 2016 All rights reserved.",
   TestimonialText: [

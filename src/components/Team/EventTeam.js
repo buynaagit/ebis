@@ -19,7 +19,7 @@ class EventTeam extends Component {
         <div className="container">
           <div className="hosting_title security_title text-center">
             <h2 className="wow fadeInUp" data-wow-delay="0.2s">
-              <span>Speakers</span> Who's Speaking
+              Удирдлагын баг
             </h2>
           </div>
           <Slider
@@ -28,30 +28,30 @@ class EventTeam extends Component {
             {...settings}
           >
             <EventTeamItem
+              image="enhjargal2.jpg"
+              name="Н.Энхжаргал Phd"
+              post="HEAD OF CLINIC"
+            />
+            <EventTeamItem
+              image="zorigo.jpg"
+              name="А.Ганзориг"
+              post="CO-FOUNDER CEO"
+            />
+            <EventTeamItem
+              image="sakai.jpg"
+              name="Sakai Shigekazu"
+              post="FOUNDER"
+            />
+            {/* <EventTeamItem
               image="team1.jpg"
               name="John Deo"
               post="Wp Developer"
             />
             <EventTeamItem
               image="team2.jpg"
-              name="Jason Response"
-              post="Graphic Design"
-            />
-            <EventTeamItem
-              image="team3.jpg"
               name="John Deo"
               post="Wp Developer"
-            />
-            <EventTeamItem
-              image="team1.jpg"
-              name="John Deo"
-              post="Wp Developer"
-            />
-            <EventTeamItem
-              image="team2.jpg"
-              name="John Deo"
-              post="Wp Developer"
-            />
+            /> */}
           </Slider>
         </div>
       </section>

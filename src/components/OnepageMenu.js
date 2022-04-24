@@ -10,10 +10,10 @@ import { GlobalOutlined } from "@ant-design/icons";
 class OnepageMenu extends Component {
   changeLanguage() {
     let locale = localStorage.getItem("language");
-    if (locale === "en") {
+    if (locale === "jp") {
       localStorage.setItem("language", "mn");
     } else {
-      localStorage.setItem("language", "en");
+      localStorage.setItem("language", "jp");
     }
   }
   render() {

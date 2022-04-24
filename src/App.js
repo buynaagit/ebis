@@ -28,7 +28,7 @@ import homeSoftwareDark from "./Pages/Home-software-dark";
 import HomeAppShowcase from "./Pages/Home-app-showcase";
 import HomeCloud from "./Pages/Home-cloud";
 import HomeTracking from "./Pages/Home-tracking";
-import HomeEvent from "./Pages/Home-event";
+import Ebis from "./Pages/Ebis";
 import HomeChat from "./Pages/Home-chat";
 import Price from "./Pages/Price";
 import Faq from "./Pages/Faq";
@@ -99,7 +99,7 @@ class App extends Component {
           />
           <ScrollToTopRoute path="/Home-cloud" component={HomeCloud} />
           <ScrollToTopRoute path="/Home-Tracking" component={HomeTracking} />
-          <ScrollToTopRoute path="/Home-event" component={HomeEvent} />
+          <ScrollToTopRoute path="/Ebis" component={Ebis} />
           <ScrollToTopRoute path="/Home-chat" component={HomeChat} />
           <ScrollToTopRoute path="/Price" component={Price} />
           <ScrollToTopRoute path="/Faq" component={Faq} />

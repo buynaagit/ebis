@@ -1042,11 +1042,11 @@ button:focus {
 }
 
 .locale-change-btn {
-  color: white
+  color: white;
 }
 
 .navbar_fixed .locale-change-btn {
-  color: black
+  color: black;
 }
 
 .menu > .nav-item > .nav-link {
@@ -4597,7 +4597,7 @@ button:focus {
   width: 100%;
   height: 105%;
   z-index: -1;
-  opacity: 0.1;
+  opacity: 0.2;
 }
 
 .company_banner_area .company_banner_content h6 {
@@ -25460,7 +25460,7 @@ a .h_head:hover {
   min-height: 100vh;
   position: relative;
   overflow: hidden;
-  background-image: linear-gradient(-120deg, #6e1822 0%, #0e044b 100%);
+  background-image: linear-gradient(-120deg, #141e30 0%, #243b55 100%);
   z-index: 1;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -25553,9 +25553,9 @@ a .h_head:hover {
 }
 
 .event_btn_two:hover {
-  background: #3087e9;
+  background: #2b2d42;
   color: #fff;
-  border-color: #3087e9;
+  border-color: #fff;
 }
 
 .event_counter_area {
@@ -25714,7 +25714,6 @@ a .h_head:hover {
   z-index: 1;
   margin-bottom: 25px;
   border-radius: 6px;
-  background-image: linear-gradient(60deg, #3087e9 0%, #4dd6dc 100%);
   overflow: hidden;
 }
 
@@ -25724,7 +25723,7 @@ a .h_head:hover {
   width: 100px;
   height: 121px;
   background: #fff;
-  opacity: 0.6;
+  opacity: 0.1;
   position: absolute;
   bottom: -105px;
   right: -104px;
@@ -25842,7 +25841,7 @@ a .h_head:hover {
 }
 
 .event_team_slider .item:hover img {
-  opacity: 0.2;
+  opacity: 0.9;
   -webkit-transform: scale(1.04);
   -ms-transform: scale(1.04);
   transform: scale(1.04);
@@ -25895,7 +25894,23 @@ a .h_head:hover {
 }
 
 .event_features_item p {
-  color: #7b7b93;
+  color: #2c2c51;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* number of lines to show */
+          line-clamp: 5; 
+  -webkit-box-orient: vertical;
+}
+
+.event_features_item ul {
+  color: #2c2c51;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* number of lines to show */
+          line-clamp: 5; 
+  -webkit-box-orient: vertical;
 }
 
 .event_features_item .e_features_btn {
