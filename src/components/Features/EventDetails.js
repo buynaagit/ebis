@@ -35,13 +35,7 @@ const EventDetails = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <p>
-                Only a quid it's all gone to pot say codswallop loo tinkety tonk
-                old fruit Oxford Why, porkies cheeky bugger tickety-boo butty a
-                load of old tosh bleeder, down the pub well owt to do with me is
-                chip shop gormless. I don't want no agro bleeder tomfoolery
-                knees up what a load of rubbish the full monty.
-              </p>
+              <p>{getLocale("specialists_details")}</p>
             </div>
           </div>
         </div>

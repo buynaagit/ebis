@@ -25898,8 +25898,6 @@ a .h_head:hover {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 5; /* number of lines to show */
-          line-clamp: 5; 
   -webkit-box-orient: vertical;
 }
 
@@ -25908,9 +25906,8 @@ a .h_head:hover {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 5; /* number of lines to show */
-          line-clamp: 5; 
   -webkit-box-orient: vertical;
+
 }
 
 .event_features_item .e_features_btn {
@@ -25937,11 +25934,12 @@ a .h_head:hover {
 }
 
 .event_promotion_info {
-  margin-top: -60px;
+  margin-top: -70px;
 }
 
 .event_promotion_info p {
   padding-left: 30px;
+  margin-top: 65px;
 }
 
 .e_promo_text {

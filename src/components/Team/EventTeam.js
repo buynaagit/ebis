@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import EventTeamItem from "./EventTeamItem";
 import Slider from "react-slick";
+import { getLocale } from "../../locales";
 
 class EventTeam extends Component {
   render() {
@@ -19,7 +20,7 @@ class EventTeam extends Component {
         <div className="container">
           <div className="hosting_title security_title text-center">
             <h2 className="wow fadeInUp" data-wow-delay="0.2s">
-              Удирдлагын баг
+              {getLocale("management")}
             </h2>
           </div>
           <Slider
@@ -29,17 +30,17 @@ class EventTeam extends Component {
           >
             <EventTeamItem
               image="enhjargal2.jpg"
-              name="Н.Энхжаргал Phd"
+              name={getLocale("enhjargal")}
               post="HEAD OF CLINIC"
             />
             <EventTeamItem
               image="zorigo.jpg"
-              name="А.Ганзориг"
+              name={getLocale("ganzorig")}
               post="CO-FOUNDER CEO"
             />
             <EventTeamItem
               image="sakai.jpg"
-              name="Sakai Shigekazu"
+              name={getLocale("sakai")}
               post="FOUNDER"
             />
             {/* <EventTeamItem
