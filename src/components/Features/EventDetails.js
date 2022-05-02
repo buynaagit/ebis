@@ -21,16 +21,12 @@ const EventDetails = () => {
             <div className="col-md-6">
               <div className="e_promo_text wow fadeInDown">
                 <div className="d-flex">
-                  <a href="/#" className="promo_tag">
-                    Workshop
-                  </a>
-                  <a href="/#" className="date">
-                    24 - 06 - 2019
-                  </a>
+                  <a className="promo_tag">Rehabilitation</a>
+                  <a className="date">est 2019</a>
                 </div>
-                <h3>The Impact of Event Marketing</h3>
-                <a href="/#" className="event_btn event_btn_two btn_hover">
-                  Buy Tickets
+                <h3>Япон стандартыг монголд</h3>
+                <a className="event_btn event_btn_two btn_hover">
+                  +976 9450-0054
                 </a>
               </div>
             </div>
