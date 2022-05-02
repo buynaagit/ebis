@@ -157,9 +157,10 @@ class CustomNavbar extends Component {
                             background: "none",
                             border: "none",
                             boxShadow: "none",
+                            color: "#E37882",
                           }}
                           onClick={this.changeLanguage}
-                          href="./Ebis"
+                          href="./"
                         >
                           <img
                             style={{
@@ -178,9 +179,10 @@ class CustomNavbar extends Component {
                             background: "none",
                             border: "none",
                             boxShadow: "none",
+                            color: "#E37882",
                           }}
                           onClick={this.changeLanguage}
-                          href="./Ebis"
+                          href="./"
                         >
                           <img
                             style={{

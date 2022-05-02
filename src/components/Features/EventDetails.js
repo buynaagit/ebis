@@ -24,7 +24,7 @@ const EventDetails = () => {
                   <a className="promo_tag">Rehabilitation</a>
                   <a className="date">est 2019</a>
                 </div>
-                <h3>Япон стандартыг монголд</h3>
+                <h3> {getLocale("standart")} </h3>
                 <a className="event_btn event_btn_two btn_hover">
                   +976 9450-0054
                 </a>

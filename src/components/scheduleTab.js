@@ -31,18 +31,13 @@ class ScheduleTab extends Component {
                     />
                   </div>
                   <div className="media-body">
-                    <h3 className="h_head">Сэргээн засах төхөөрөмжүүд</h3>
+                    <h3 className="h_head">
+                      {getLocale("tuhuurumjuud_title")}
+                    </h3>
                     <span>
                       by <a>Japan</a>
                     </span>
-                    <p>
-                      Дээд ба доод мөчний яс болон булчингийн эмгэг, цээж,
-                      мөрний үйл ажиллагааг сайжруулах мөн нурууны үе нугалам,
-                      булчингийн өөрчлөлтүүд болон тохой, бугалга, сарвууны яс
-                      үе холбоосны эмгэг зэргийн сэргээн засах эмчилгээнд
-                      ашиглагддаг төрөл бүрийн Япон төхөөрөмжүүдийг ашиглаж
-                      байна.
-                    </p>
+                    <p>{getLocale("tuhuurumjuud_detail")}</p>
                   </div>
                 </div>
                 <div className="media">
