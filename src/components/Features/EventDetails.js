@@ -3,7 +3,7 @@ import { getLocale } from "../../locales";
 
 const EventDetails = () => {
   return (
-    <section className="event_promotion_area">
+    <section className="event_promotion_area" id="team">
       <div className="container">
         <div className="hosting_title security_title text-center">
           <h2 className="wow fadeInUp" data-wow-delay="0.2s">

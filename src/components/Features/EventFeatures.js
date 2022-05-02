@@ -4,7 +4,7 @@ import EventFeaturesItem from "./EventFeaturesItem";
 
 const EventFeatures = () => {
   return (
-    <section className="event_features_area">
+    <section className="event_features_area" id="service">
       <div className="container">
         <div className="hosting_title security_title text-center">
           <h2 className="wow fadeInUp" data-wow-delay="0.2s">

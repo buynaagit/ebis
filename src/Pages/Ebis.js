@@ -31,12 +31,10 @@ const Ebis = () => {
       <EventFeatures />
       <EventDetails />
       <ScheduleTab />
-      <EventPrice />
       <EventFact />
       <Eventgallery />
-      <EventSponser />
       <EventLocation />
-      <FooterErp fClass="event_footer_area" FooterData={FooterData} />
+      <FooterErp fClass="event_footer_area" />
     </div>
   );
 };

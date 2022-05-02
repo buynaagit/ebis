@@ -3,7 +3,7 @@ import { getLocale } from "../locales";
 import Map from "./Map";
 const EventLocation = () => {
   return (
-    <section className="event_location_area">
+    <section className="event_location_area" id="contact">
       <Map />
       <div className="container">
         <div className="event_location">

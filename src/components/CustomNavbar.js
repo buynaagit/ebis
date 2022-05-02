@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 import { Button } from "antd";
 import Sticky from "react-stickynode";
 import { getLocale } from "../locales";
@@ -21,7 +22,7 @@ class CustomNavbar extends Component {
           <nav className={`navbar navbar-expand-lg menu_one ${mClass}`}>
             <div className={`container ${cClass}`}>
               {localStorage.getItem("language") == "mn" ? (
-                <Link className={`navbar-brand ${slogo}`} to="/Ebis">
+                <Link className={`navbar-brand ${slogo}`} to="hospitalBanner">
                   <img
                     style={{ width: "80%", height: "80%" }}
                     src={require("../img/ebislogotrnsprnt.png")}
@@ -35,7 +36,7 @@ class CustomNavbar extends Component {
                   />
                 </Link>
               ) : (
-                <Link className={`navbar-brand ${slogo}`} to="/Ebis">
+                <Link className={`navbar-brand ${slogo}`} to="hospitalBanner">
                   <img
                     style={{ width: "40%", height: "40%" }}
                     src={require("../img/ebislogotrnsprnt.png")}
@@ -84,7 +85,7 @@ class CustomNavbar extends Component {
                       smooth={true}
                       offset={0}
                       duration={500}
-                      to="Ebis"
+                      to="hospitalBanner"
                       style={{ marginTop: "10px" }}
                     >
                       {getLocale("nav1")}
@@ -99,10 +100,10 @@ class CustomNavbar extends Component {
                       smooth={true}
                       offset={0}
                       duration={500}
-                      to="Ebis"
+                      to="service"
                       style={{ marginTop: "10px" }}
                     >
-                      {getLocale("nav2")}
+                      {getLocale("nav3")}
                     </Link>
                   </li>
                   <li className="dropdown submenu nav-item">
@@ -113,10 +114,10 @@ class CustomNavbar extends Component {
                       smooth={true}
                       offset={0}
                       duration={500}
-                      to="Ebis"
+                      to="team"
                       style={{ marginTop: "10px" }}
                     >
-                      {getLocale("nav3")}
+                      {getLocale("nav2")}
                     </Link>
                   </li>
 
@@ -128,21 +129,25 @@ class CustomNavbar extends Component {
                       smooth={true}
                       offset={0}
                       duration={500}
-                      to="Ebis"
+                      to="tuhuurumj"
                       style={{ marginTop: "10px" }}
                     >
                       {getLocale("nav5")}
                     </Link>
                   </li>
-                  <li className="nav-item">
-                    <NavLink
-                      style={{ marginTop: "10px" }}
-                      title="Pricing"
+                  <li className="nav-item dropdown submenu">
+                    <Link
                       className="nav-link"
-                      to="/Contact"
+                      activeClass="active"
+                      spy={true}
+                      smooth={true}
+                      offset={0}
+                      duration={500}
+                      to="contact"
+                      style={{ marginTop: "10px" }}
                     >
                       {getLocale("nav6")}
-                    </NavLink>
+                    </Link>
                   </li>
                   <li className="nav-item">
                     <div className="nav-link">
