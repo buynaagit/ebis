@@ -31,14 +31,17 @@ class ScheduleTab extends Component {
                     />
                   </div>
                   <div className="media-body">
-                    <h3 className="h_head">The future of the UI/UX</h3>
+                    <h3 className="h_head">Сэргээн засах төхөөрөмжүүд</h3>
                     <span>
-                      by <a href="/#">Hanson Deck</a>
+                      by <a>Japan</a>
                     </span>
                     <p>
-                      Lost the plot lurgy on your bike mate Oxford hanky panky
-                      blow off haggle golly gosh do one, is tosser car boot
-                      knees.
+                      Дээд ба доод мөчний яс болон булчингийн эмгэг, цээж,
+                      мөрний үйл ажиллагааг сайжруулах мөн нурууны үе нугалам,
+                      булчингийн өөрчлөлтүүд болон тохой, бугалга, сарвууны яс
+                      үе холбоосны эмгэг зэргийн сэргээн засах эмчилгээнд
+                      ашиглагддаг төрөл бүрийн Япон төхөөрөмжүүдийг ашиглаж
+                      байна.
                     </p>
                   </div>
                 </div>
@@ -51,14 +54,19 @@ class ScheduleTab extends Component {
                     />
                   </div>
                   <div className="media-body">
-                    <h3 className="h_head">The future of the UI/UX</h3>
+                    <h3 className="h_head">
+                      Японы NISSIN IRYOKI загварын CARBON HEALTH LIGHT шарлагын
+                      аппарат
+                    </h3>
                     <span>
-                      by <a href="/#">Hanson Deck</a>
+                      by <a>Japan</a>
                     </span>
                     <p>
-                      Lost the plot lurgy on your bike mate Oxford hanky panky
-                      blow off haggle golly gosh do one, is tosser car boot
-                      knees.
+                      Энэхүү аппарат нь нарны гэрлийн бүтэцтэй ойролцоо туяа
+                      буюу хэт ягаан туяа, үзэгдэх туяа, ульравиолет улаан туяа
+                      зэргийг тодорхой хэмжээгээр ялгаруулан, биеийн дархлаа
+                      болон эрүүл мэндийг дэмжих, цусан хангамж сайжруулах, эд
+                      эсийн нөхөн төлжилтийг дээшлүүлэх нөлөөг үзүүлдэг.
                     </p>
                   </div>
                 </div>
@@ -71,14 +79,19 @@ class ScheduleTab extends Component {
                     />
                   </div>
                   <div className="media-body">
-                    <h3 className="h_head">The future of the UI/UX</h3>
+                    <h3 className="h_head">
+                      Япон улсын National загварын бүрэн автомат бүтэн биеийн
+                      массажны сандал
+                    </h3>
                     <span>
-                      by <a href="/#">Hanson Deck</a>
+                      by <a>Japan</a>
                     </span>
                     <p>
-                      Lost the plot lurgy on your bike mate Oxford hanky panky
-                      blow off haggle golly gosh do one, is tosser car boot
-                      knees.
+                      Булчин суллах, бодисын солилцоог сайжруулах, цус,
+                      тунгалагийн эргэлтийг эрчимжүүлэх замаар биеийн алжаал
+                      ядаргааг тайлах, тайвшруулах, өвдөлтийг намдаах дотор
+                      эрхтэнүүдийн үйл ажиллагааг сэргээх эмчилгээний үйлчилгээ
+                      үзүүлнэ.
                     </p>
                   </div>
                 </div>
@@ -91,14 +104,19 @@ class ScheduleTab extends Component {
                     />
                   </div>
                   <div className="media-body">
-                    <h3 className="h_head">The future of the UI/UX</h3>
+                    <h3 className="h_head">
+                      Японы Dainichi загварын AUTOHEALTHER халдаг, автомат
+                      массажны ор
+                    </h3>
                     <span>
-                      by <a href="/#">Hanson Deck</a>
+                      by <a>Japan</a>
                     </span>
                     <p>
-                      Lost the plot lurgy on your bike mate Oxford hanky panky
-                      blow off haggle golly gosh do one, is tosser car boot
-                      knees.
+                      Бүтэн биеийн толгойноос хөл хүртэл зөөлөн массаж иллэг
+                      хийнэ. Массаж болон дулааны горимыг өөрчлөх
+                      тохируулгуудтай Дулаан массаж, иллэгний үйлдлээр бие
+                      махбодийн бодисын солилцоо сайжирна, алжаал ядаргааг
+                      тайлна.
                     </p>
                   </div>
                 </div>
@@ -111,14 +129,17 @@ class ScheduleTab extends Component {
                     />
                   </div>
                   <div className="media-body">
-                    <h3 className="h_head">The future of the UI/UX</h3>
+                    <h3 className="h_head">
+                      TENS Нам гүйдлийн долгионоор эмчлэх Цахилгаан эмчилгээний
+                      аппарат
+                    </h3>
                     <span>
-                      by <a href="/#">Hanson Deck</a>
+                      by <a>Japan</a>
                     </span>
                     <p>
-                      Lost the plot lurgy on your bike mate Oxford hanky panky
-                      blow off haggle golly gosh do one, is tosser car boot
-                      knees.
+                      Өвчтэй хэсэгт арьсны гадна талаас цахилгаан гүйдлийг
+                      дамжуулж, мэдрэлийн эсүүдийг цочроосноор, өвдөлтийн
+                      мэдрэмж дамжихыг зогсоож, өвдөлт намдаах үйлдэл үзүүлнэ.
                     </p>
                   </div>
                 </div>
@@ -131,14 +152,18 @@ class ScheduleTab extends Component {
                     />
                   </div>
                   <div className="media-body">
-                    <h3 className="h_head">The future of the UI/UX</h3>
+                    <h3 className="h_head">
+                      Японы Denkyo загварын вибратор массажны аппарат
+                    </h3>
                     <span>
-                      by <a href="/#">Hanson Deck</a>
+                      by <a>Japan</a>
                     </span>
                     <p>
-                      Lost the plot lurgy on your bike mate Oxford hanky panky
-                      blow off haggle golly gosh do one, is tosser car boot
-                      knees.
+                      Биеийн бүх хэсэгт ялангуяа чангарсан хүзүү, дал мөр,
+                      нурууны хэсэгт вибратор буюу чичиргээт массажны
+                      тусламжтайгаар булчингийн чангарлыг суллаж, хөшилтийг
+                      арилгана. Удаан хугацаанд суудаг оффис ажилнуудад хуян
+                      хөөрөх, хүзүү хөшиж өвдөх үед илүү тохиромжтой
                     </p>
                   </div>
                 </div>
@@ -151,14 +176,41 @@ class ScheduleTab extends Component {
                     />
                   </div>
                   <div className="media-body">
-                    <h3 className="h_head">The future of the UI/UX</h3>
+                    <h3 className="h_head">
+                      ONPAR ДАРАЛТАТ УСАН МАССАЖ, ЖАКУЗАН АППАРАТ
+                    </h3>
                     <span>
-                      by <a href="/#">Hanson Deck</a>
+                      by <a>Japan</a>
                     </span>
                     <p>
-                      Lost the plot lurgy on your bike mate Oxford hanky panky
-                      blow off haggle golly gosh do one, is tosser car boot
-                      knees.
+                      Дөрвөн мөчний хөл, гарын цэгүүдэд усан болон даралтат
+                      массаж хийж, цусны эргэлт сайжруулах, булчин мэдрэлийн үйл
+                      ажиллагааг сэргээх, үе мөчний хөшилт ба булчингийн тонус
+                      чангарлыг сулруулах, алжаал ядаргаа тайлах зэрэг цогц
+                      үйлчилгээ үзүүлнэ.
+                    </p>
+                  </div>
+                </div>
+                <div className="media">
+                  <div className="media-left">
+                    <img
+                      style={{ width: "300px", height: "300px" }}
+                      src={require("../img/home-event/bulchin_ther.jpg")}
+                      alt=""
+                    />
+                  </div>
+                  <div className="media-body">
+                    <h3 className="h_head">
+                      Япон улсын Vital загварын Гар, хөлийн даралтат эмчилгээний
+                      аппарат
+                    </h3>
+                    <span>
+                      by <a>Japan</a>
+                    </span>
+                    <p>
+                      Хөлийн улны цэгүүд болон шагай, шилбэ, өвдөг хүртэлх
+                      булчинд массаж хийнэ, Гар болон Хөлийн булчингийн
+                      хатингаршил, мэдрэл цусан хангамжийг сайжруулах
                     </p>
                   </div>
                 </div>
