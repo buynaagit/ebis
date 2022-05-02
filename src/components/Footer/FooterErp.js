@@ -26,8 +26,7 @@ class FooterErp extends Component {
                     © 2022 Orkhon Toyama LLC <br /> all rights reserved.
                   </p>
                   <h3 style={{ color: "white", marginTop: "20px" }}>
-                    {" "}
-                    +976 9450-0054{" "}
+                    +976 9450-0054 <br></br> +976 7607-7866
                   </h3>
                   <div className="f_social_icon">
                     <a

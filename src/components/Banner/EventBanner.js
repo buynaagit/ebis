@@ -7,7 +7,7 @@ const EventBanner = () => {
       <div
         className="parallax-effect"
         style={{
-          objectFit: 'contain',
+          objectFit: "contain",
           backgroundImage:
             "url(" + require("../../img/home-event/ebisBg2.JPG") + ")",
         }}
@@ -51,7 +51,7 @@ const EventBanner = () => {
           <a
             className="event_btn event_btn_two btn_hover wow fadeInRight"
             data-wow-delay="0.9s"
-            href="https://www.youtube.com/"
+            href="https://www.facebook.com/104619461022471/videos/1050756605264980/"
             // style={{ color: "black" }}
           >
             <i className="arrow_triangle-right_alt2"></i>
