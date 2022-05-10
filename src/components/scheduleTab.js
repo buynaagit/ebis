@@ -35,7 +35,7 @@ class ScheduleTab extends Component {
                       {getLocale("tuhuurumjuud_title")}
                     </h3>
                     <span>
-                      by <a>Japan</a>
+                      by <p>Japan</p>
                     </span>
                     <p>{getLocale("tuhuurumjuud_detail")}</p>
                   </div>
@@ -51,7 +51,7 @@ class ScheduleTab extends Component {
                   <div className="media-body">
                     <h3 className="h_head">{getLocale("sharlaga_title")}</h3>
                     <span>
-                      by <a>Japan</a>
+                      by <p>Japan</p>
                     </span>
                     <p>{getLocale("sharlaga_detail")}</p>
                   </div>
@@ -69,7 +69,7 @@ class ScheduleTab extends Component {
                       {getLocale("massage_chair_title")}
                     </h3>
                     <span>
-                      by <a>Japan</a>
+                      by <p>Japan</p>
                     </span>
                     <p>{getLocale("massage_chair_detail")}</p>
                   </div>
@@ -85,7 +85,7 @@ class ScheduleTab extends Component {
                   <div className="media-body">
                     <h3 className="h_head">{getLocale("massage_bed_title")}</h3>
                     <span>
-                      by <a>Japan</a>
+                      by <p>Japan</p>
                     </span>
                     <p>{getLocale("massage_bed_detail")}</p>
                   </div>
@@ -101,7 +101,7 @@ class ScheduleTab extends Component {
                   <div className="media-body">
                     <h3 className="h_head">{getLocale("tens_title")}</h3>
                     <span>
-                      by <a>Japan</a>
+                      by <p>Japan</p>
                     </span>
                     <p>{getLocale("tens_detail")}</p>
                   </div>
@@ -117,7 +117,7 @@ class ScheduleTab extends Component {
                   <div className="media-body">
                     <h3 className="h_head">{getLocale("denkyo_title")}</h3>
                     <span>
-                      by <a>Japan</a>
+                      by <p>Japan</p>
                     </span>
                     <p>{getLocale("denkyo_detail")}</p>
                   </div>
@@ -133,7 +133,7 @@ class ScheduleTab extends Component {
                   <div className="media-body">
                     <h3 className="h_head">{getLocale("onpar_title")}</h3>
                     <span>
-                      by <a>Japan</a>
+                      by <p>Japan</p>
                     </span>
                     <p>{getLocale("onpar_detail")}</p>
                   </div>
@@ -149,7 +149,7 @@ class ScheduleTab extends Component {
                   <div className="media-body">
                     <h3 className="h_head">{getLocale("vital_title")}</h3>
                     <span>
-                      by <a>Japan</a>
+                      by <p>Japan</p>
                     </span>
                     <p>{getLocale("vital_detail")}</p>
                   </div>

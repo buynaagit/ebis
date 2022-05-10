@@ -1,12 +1,6 @@
-import { Button } from "bootstrap";
-import React, { Component, useEffect, useState } from "react";
-import AnimateHeight from "react-animate-height";
+import React, { useEffect, useState } from "react";
 
 const EventFeaturesItem = (props) => {
-  useEffect(() => {
-    makeUnorderedList();
-  }, []);
-
   const [uList, setUList] = useState([]);
   const [ULnumberOfLines, setULNumberOfLines] = useState(true);
   const [pnumberOfLines, setpNumberOfLines] = useState(true);
@@ -19,6 +13,10 @@ const EventFeaturesItem = (props) => {
       console.log("uList", uList);
     }
   };
+
+  useEffect(() => {
+    makeUnorderedList();
+  }, []);
 
   const toggleHeight = (type) => {
     if (type === 1) {

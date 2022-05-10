@@ -21,13 +21,13 @@ const EventDetails = () => {
             <div className="col-md-6">
               <div className="e_promo_text wow fadeInDown">
                 <div className="d-flex">
-                  <a className="promo_tag">Rehabilitation</a>
-                  <a className="date">est 2019</a>
+                  <p className="promo_tag">Rehabilitation</p>
+                  <p className="date">est 2019</p>
                 </div>
                 <h3> {getLocale("standart")} </h3>
-                <a className="event_btn event_btn_two btn_hover">
+                <p className="event_btn event_btn_two btn_hover">
                   +976 9450-0054
-                </a>
+                </p>
               </div>
             </div>
             <div className="col-md-6">

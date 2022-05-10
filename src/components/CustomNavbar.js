@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 import { Button } from "antd";
 import Sticky from "react-stickynode";
@@ -15,13 +14,13 @@ class CustomNavbar extends Component {
     }
   }
   render() {
-    var { mClass, nClass, cClass, slogo, hbtnClass } = this.props;
+    var { mClass, nClass, cClass, slogo } = this.props;
     return (
       <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
         <header className="header_area">
           <nav className={`navbar navbar-expand-lg menu_one ${mClass}`}>
             <div className={`container ${cClass}`}>
-              {localStorage.getItem("language") == "mn" ? (
+              {localStorage.getItem("language") === "mn" ? (
                 <Link className={`navbar-brand ${slogo}`} to="hospitalBanner">
                   <img
                     style={{ width: "80%", height: "80%" }}
@@ -151,7 +150,7 @@ class CustomNavbar extends Component {
                   </li>
                   <li className="nav-item">
                     <div className="nav-link">
-                      {localStorage.getItem("language") == "mn" ? (
+                      {localStorage.getItem("language") === "mn" ? (
                         <Button
                           style={{
                             background: "none",

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Reveal from "react-reveal/Reveal";
-import { Link } from "react-router-dom";
 
 class FooterErp extends Component {
   render() {
