@@ -29,9 +29,9 @@ const EventDetails = () => {
                   </a>
                 </div>
                 <h3> {getLocale("standart")} </h3>
-                <a className="event_btn event_btn_two btn_hover">
+                <p className="event_btn event_btn_two btn_hover">
                   +976 9450-0054
-                </a>
+                </p>
               </div>
             </div>
             <div className="col-md-6">
