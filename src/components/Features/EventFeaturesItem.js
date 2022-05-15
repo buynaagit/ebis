@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
+import AnimateHeight from 'react-animate-height';
 
 const EventFeaturesItem = (props) => {
   const [uList, setUList] = useState([]);
-  const [ULnumberOfLines, setULNumberOfLines] = useState(true);
-  const [pnumberOfLines, setpNumberOfLines] = useState(true);
+  const [ULnumberOfLines, setULNumberOfLines] = useState('200px');
+  const [pnumberOfLines, setpNumberOfLines] = useState('200px');
 
   const makeUnorderedList = () => {
     if (props.ulist) {
@@ -26,6 +27,8 @@ const EventFeaturesItem = (props) => {
     }
   };
 
+ 
+
   return (
     <div className="col-lg-4 col-sm-6">
       <div
@@ -37,12 +40,15 @@ const EventFeaturesItem = (props) => {
       >
         <img src={require("../../img/home-event/" + props.image)} alt="" />
         <h5>{props.title}</h5>
-
         {props.ptext ? (
-          <>
+         <AnimateHeight
+         id='example-panel'
+         duration={ 500 }
+         height={ pnumberOfLines } // see props documentation below
+       >
             <p
               style={{
-                WebkitLineClamp: pnumberOfLines ? 5 : null,
+                height: pnumberOfLines ? '200px' : '100%'
               }}
             >
               {props.ptext}
@@ -61,12 +67,16 @@ const EventFeaturesItem = (props) => {
                 }
               ></i>
             </button>
-          </>
+            </AnimateHeight>
         ) : (
-          <div>
+          <AnimateHeight
+          id='example-panel'
+          duration={ 500 }
+          height={ ULnumberOfLines } // see props documentation below
+        >
             <ul
               style={{
-                WebkitLineClamp: ULnumberOfLines ? 5 : null,
+                height: ULnumberOfLines ? '200px' : '100%'
               }}
             >
               {uList?.map((item, index) => (
@@ -87,7 +97,7 @@ const EventFeaturesItem = (props) => {
                 }
               ></i>
             </button>
-          </div>
+        </AnimateHeight>
         )}
       </div>
     </div>

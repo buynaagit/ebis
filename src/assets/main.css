@@ -25870,7 +25870,6 @@ a .h_head:hover {
   background-color: white;
   -webkit-box-shadow: 0px 40px 60px 0px rgba(92, 10, 20, 0.08);
   box-shadow: 0px 40px 60px 0px rgba(92, 10, 20, 0.08);
-  height: 100%;
   padding: 40px;
 }
 
@@ -25927,25 +25926,27 @@ a .h_head:hover {
 
 .event_promotion_area {
   padding-top: 266px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   position: relative;
   z-index: 0;
   background: #fff;
 }
 
 .event_promotion_info {
-  margin-top: -70px;
+  margin-top: -20;
 }
 
 .event_promotion_info p {
   padding-left: 30px;
   margin-top: 65px;
+
 }
 
 .e_promo_text {
   margin-left: 70px;
   border-radius: 6px;
   padding: 60px;
+  margin-top: -140px;
   background-color: white;
   -webkit-box-shadow: 0px 40px 60px 0px rgba(92, 10, 20, 0.08);
   box-shadow: 0px 40px 60px 0px rgba(92, 10, 20, 0.08);
@@ -25959,21 +25960,25 @@ a .h_head:hover {
   background: #3087e9;
 }
 
-.e_promo_text h3 {
-  font-size: 34px;
-  font-weight: 600;
-  line-height: 44px;
-  color: #2c2c51;
-  margin: 30px 0px 40px;
-}
-
 .e_promo_text .date {
   color: #fba820;
   margin-left: 30px;
 }
 
+.e_promo_text h3 {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 44px;
+  color: #2c2c51;
+
+}
+
+
+
 .e_promo_text .event_btn {
   padding: 7px 37px;
+  margin-top: 20px;
+
 }
 
 .event_schedule_area {

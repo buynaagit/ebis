@@ -9,8 +9,8 @@ const localeConfig = {
 export const getLocale = (id) => {
   let locale = localStorage.getItem("language");
   if (locale === null) {
-    localStorage.setItem("language", "jp");
-    locale = "jp";
+    localStorage.setItem("language", "mn");
+    locale = "mn";
   }
   let msg;
   if (locale === "mn") msg = localeConfig["mn"];

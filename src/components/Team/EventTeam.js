@@ -36,12 +36,12 @@ class EventTeam extends Component {
             <EventTeamItem
               image="zorigo.jpg"
               name={getLocale("ganzorig")}
-              post="CO-FOUNDER CEO"
+              post="FOUNDER"
             />
             <EventTeamItem
               image="sakai.jpg"
               name={getLocale("sakai")}
-              post="FOUNDER"
+              post="CO-FOUNDER"
             />
             {/* <EventTeamItem
               image="team1.jpg"

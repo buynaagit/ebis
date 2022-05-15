@@ -20,7 +20,7 @@ const EventDetails = () => {
           <div className="row event_promotion_info align-items-center">
             <div className="col-md-6">
               <div className="e_promo_text wow fadeInDown">
-                <div className="d-flex">
+                <div style={{marginBottom: '20px'}} className="d-flex">
                   <a style={{ color: "white" }} className="promo_tag">
                     Rehabilitation
                   </a>
@@ -28,7 +28,7 @@ const EventDetails = () => {
                     est 2019
                   </a>
                 </div>
-                <h3> {getLocale("standart")} </h3>
+                <h3 > {getLocale("standart")} </h3>
                 <p className="event_btn event_btn_two btn_hover">
                   +976 9450-0054
                 </p>
