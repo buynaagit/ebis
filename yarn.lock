@@ -4348,6 +4348,11 @@
     "signal-exit" "^3.0.0"
     "strip-eof" "^1.0.0"
 
+"exenv@^1.2.0":
+  "integrity" "sha1-KueOhdmJQVhnCwPUe+wfA72Ru50="
+  "resolved" "https://registry.npmjs.org/exenv/-/exenv-1.2.2.tgz"
+  "version" "1.2.2"
+
 "exit@^0.1.2":
   "integrity" "sha1-BjJjj42HfMghB9MKD/8aF8uhzQw="
   "resolved" "https://registry.npmjs.org/exit/-/exit-0.1.2.tgz"
@@ -9265,7 +9270,7 @@
     "strip-ansi" "6.0.0"
     "text-table" "0.2.0"
 
-"react-dom@^16.12.0", "react-dom@>=15.6.2":
+"react-dom@^0.14.0 || ^15.0.0 || ^16 || ^17 || ^18", "react-dom@^16.12.0", "react-dom@>=15.6.2":
   "integrity" "sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-16.14.0.tgz"
   "version" "16.14.0"
@@ -9321,12 +9326,27 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
+"react-lifecycles-compat@^3.0.0":
+  "integrity" "sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA=="
+  "resolved" "https://registry.npmjs.org/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz"
+  "version" "3.0.4"
+
 "react-loader-spinner@^4.0.0":
   "integrity" "sha512-RU2vpEej6G4ECei0h3q6bgLU10of9Lw5O+4AwF/mtkrX5oY20Sh/AxoPJ7etbrs/7Q3u4jN5qwCwGLRKCHpk6g=="
   "resolved" "https://registry.npmjs.org/react-loader-spinner/-/react-loader-spinner-4.0.0.tgz"
   "version" "4.0.0"
   dependencies:
     "prop-types" "^15.7.2"
+
+"react-modal@^3.15.1":
+  "integrity" "sha512-duB9bxOaYg7Zt6TMFldIFxQRtSP+Dg3F1ZX3FXxSUn+3tZZ/9JCgeAQKDg7rhZSAqopq8TFRw3yIbnx77gyFTw=="
+  "resolved" "https://registry.npmjs.org/react-modal/-/react-modal-3.15.1.tgz"
+  "version" "3.15.1"
+  dependencies:
+    "exenv" "^1.2.0"
+    "prop-types" "^15.7.2"
+    "react-lifecycles-compat" "^3.0.0"
+    "warning" "^4.0.3"
 
 "react-number-format@^4.6.4":
   "integrity" "sha512-4EvcANjstypQ5anhanmdEioGc49qbnErfS+yqbhatC0vzQ1okplkWNb0DIY7ABu4RhaxzttEz6pypEy8KsqgBQ=="
@@ -9335,7 +9355,7 @@
   dependencies:
     "prop-types" "^15.7.2"
 
-"react-player@^1.15.2":
+"react-player@^1.15.3":
   "integrity" "sha512-8fc0R1AipFIy7l4lKgnIg+gMU2IY32ZMxxBlINjXAq/YnN3HUP3hOaE+aQ0lQv+a1/MMZgbekWD86ZGDO7kB8g=="
   "resolved" "https://registry.npmjs.org/react-player/-/react-player-1.15.3.tgz"
   "version" "1.15.3"
@@ -9522,7 +9542,7 @@
   dependencies:
     "prop-types" "^15.7.2"
 
-"react@^16.12.0", "react@>=15.6.2":
+"react@*", "react@^0.14.0 || ^15.0.0 || ^16 || ^17 || ^18", "react@^16.12.0", "react@>=15.6.2":
   "integrity" "sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g=="
   "resolved" "https://registry.npmjs.org/react/-/react-16.14.0.tgz"
   "version" "16.14.0"

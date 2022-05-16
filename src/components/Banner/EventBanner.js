@@ -1,9 +1,14 @@
 import React from "react";
 import { getLocale } from "../../locales";
+import YoutubeEmbed from "../YoutubeEmbed";
+
+
+
 
 const EventBanner = () => {
   return (
     <section className="event_banner_area" id="hospitalBanner">
+   
       <div
         className="parallax-effect"
         style={{
@@ -58,9 +63,12 @@ const EventBanner = () => {
             {getLocale("intro_vid")}
           </a>
         </div>
+        <h1>Youtube Embed</h1>
+      <YoutubeEmbed embedId="rokGy0huYEA" />
       </div>
     </section>
   );
 };
+
 
 export default EventBanner;
