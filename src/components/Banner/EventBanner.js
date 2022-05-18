@@ -72,7 +72,7 @@ const EventBanner = () => {
             <i className="arrow_triangle-right_alt2"></i>
             {getLocale("intro_vid")}
           </a>
-          {videoPlayer === true && <YoutubeEmbed embedId="rokGy0huYEA" />}
+          {videoPlayer === true && <YoutubeEmbed embedId="FTh7N5gY8KQ" />}
         </div>
       </div>
     </section>
