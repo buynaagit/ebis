@@ -25527,16 +25527,16 @@ a .h_head:hover {
 
 .video-responsive {
   overflow: hidden;
-  padding-bottom: 56.25%;
+  padding-bottom:50%;
   position: relative;
   height: 0;
 }
 
 .video-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
+  left: 10%;
+  top: 0%;
+  height: 80%;
+  width: 80%;
   position: absolute;
 }
 

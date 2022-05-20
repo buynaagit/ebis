@@ -67,12 +67,14 @@ const EventBanner = () => {
             className="event_btn event_btn_two btn_hover wow fadeInRight"
             data-wow-delay="0.9s"
             // href="https://www.facebook.com/104619461022471/videos/1050756605264980/"
-            style={{ color: "#fba820" }}
+            style={{ color: "#fba820", marginTop: videoPlayer ? 100 : 0 }}
           >
             <i className="arrow_triangle-right_alt2"></i>
             {getLocale("intro_vid")}
           </a>
-          {videoPlayer === true && <YoutubeEmbed embedId="FTh7N5gY8KQ" />}
+          <div>
+            {videoPlayer === true && <YoutubeEmbed embedId="FTh7N5gY8KQ" />}
+          </div>
         </div>
       </div>
     </section>
