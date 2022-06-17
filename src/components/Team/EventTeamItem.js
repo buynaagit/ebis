@@ -10,7 +10,7 @@ class EventTeamItem extends Component {
           <ul className="list-unstyled"></ul>
         </div>
         <a href="/#">
-          <h4>{name}</h4>
+          <h6>{name}</h6>
         </a>
         <p>{post}</p>
       </div>

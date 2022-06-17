@@ -31,7 +31,7 @@ class EventTeam extends Component {
             <EventTeamItem
               image="enhjargal2.jpg"
               name={getLocale("enhjargal")}
-              post="HEAD OF CLINIC"
+              post="HEAD OF CLINIC Phd"
             />
             <EventTeamItem
               image="zorigo.jpg"
@@ -43,16 +43,6 @@ class EventTeam extends Component {
               name={getLocale("sakai")}
               post="CO-FOUNDER"
             />
-            {/* <EventTeamItem
-              image="team1.jpg"
-              name="John Deo"
-              post="Wp Developer"
-            />
-            <EventTeamItem
-              image="team2.jpg"
-              name="John Deo"
-              post="Wp Developer"
-            /> */}
           </Slider>
         </div>
       </section>

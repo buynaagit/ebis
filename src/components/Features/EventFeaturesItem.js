@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
-import AnimateHeight from 'react-animate-height';
+import AnimateHeight from "react-animate-height";
+import { getLocale } from "../../locales";
 
 const EventFeaturesItem = (props) => {
   const [uList, setUList] = useState([]);
-  const [ULnumberOfLines, setULNumberOfLines] = useState('200px');
-  const [pnumberOfLines, setpNumberOfLines] = useState('200px');
+  const [ULnumberOfLines, setULNumberOfLines] = useState("200px");
+  const [pnumberOfLines, setpNumberOfLines] = useState("200px");
 
   const makeUnorderedList = () => {
     if (props.ulist) {
@@ -27,8 +28,6 @@ const EventFeaturesItem = (props) => {
     }
   };
 
- 
-
   return (
     <div className="col-lg-4 col-sm-6">
       <div
@@ -41,14 +40,14 @@ const EventFeaturesItem = (props) => {
         <img src={require("../../img/home-event/" + props.image)} alt="" />
         <h5>{props.title}</h5>
         {props.ptext ? (
-         <AnimateHeight
-         id='example-panel'
-         duration={ 500 }
-         height={ pnumberOfLines } // see props documentation below
-       >
+          <AnimateHeight
+            id="example-panel"
+            duration={500}
+            height={pnumberOfLines} // see props documentation below
+          >
             <p
               style={{
-                height: pnumberOfLines ? '200px' : '100%'
+                height: pnumberOfLines ? "200px" : "100%",
               }}
             >
               {props.ptext}
@@ -60,23 +59,23 @@ const EventFeaturesItem = (props) => {
               style={{ backgroundColor: "white", borderWidth: 0 }}
               className="e_features_btn"
             >
-              {pnumberOfLines ? "Дэлгэрэнгүй" : "Хураангуй"}
+              {pnumberOfLines ? getLocale("seemore") : getLocale("seeless")}
               <i
                 className={
                   pnumberOfLines ? "arrow_carrot-down" : "arrow_carrot-up"
                 }
               ></i>
             </button>
-            </AnimateHeight>
+          </AnimateHeight>
         ) : (
           <AnimateHeight
-          id='example-panel'
-          duration={ 500 }
-          height={ ULnumberOfLines } // see props documentation below
-        >
+            id="example-panel"
+            duration={500}
+            height={ULnumberOfLines} // see props documentation below
+          >
             <ul
               style={{
-                height: ULnumberOfLines ? '200px' : '100%'
+                height: ULnumberOfLines ? "200px" : "100%",
               }}
             >
               {uList?.map((item, index) => (
@@ -90,14 +89,14 @@ const EventFeaturesItem = (props) => {
               style={{ backgroundColor: "white", borderWidth: 0 }}
               className="e_features_btn"
             >
-              {ULnumberOfLines ? "Дэлгэрэнгүй" : "Хураангуй"}
+              {ULnumberOfLines ? getLocale("seemore") : getLocale("seeless")}
               <i
                 className={
                   ULnumberOfLines ? "arrow_carrot-down" : "arrow_carrot-up"
                 }
               ></i>
             </button>
-        </AnimateHeight>
+          </AnimateHeight>
         )}
       </div>
     </div>
